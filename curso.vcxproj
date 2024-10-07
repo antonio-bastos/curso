@@ -127,8 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Modulo1\test.cpp" />
-    <ClCompile Include="Modulo1\Source.cpp" />
+    <ClCompile Include="Modulo2_UFCD_0809\test.cpp" />
+    <ClCompile Include="Modulo2_UFCD_0809\Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.md" />

@@ -27,10 +27,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Modulo1\test.cpp">
+    <ClCompile Include="Modulo2_UFCD_0809\test.cpp">
       <Filter>Source Files\Modulo2_UFCD0809</Filter>
     </ClCompile>
-    <ClCompile Include="Modulo1\Source.cpp">
+    <ClCompile Include="Modulo2_UFCD_0809\Source.cpp">
       <Filter>Source Files\Modulo2_UFCD0809</Filter>
     </ClCompile>
   </ItemGroup>
