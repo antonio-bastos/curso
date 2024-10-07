@@ -2,8 +2,8 @@
 
 #include <iostream>
 
-int main()
+int aaa()
 {
-    std::cout << "ulici baixinho!\n";
+    std::cout << "ola!\n";
     return 0;
 }

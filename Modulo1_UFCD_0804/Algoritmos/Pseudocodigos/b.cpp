@@ -2,8 +2,8 @@
 
 #include <iostream>
 
-int main()
+int bbb()
 {
-    std::cout << "ulici baixinho!\n";
+    std::cout << "aola!\n";
     return 0;
 }

@@ -127,8 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Modulo1_UFCD_0804\Algoritmos\Fluxogramas\test.cpp" />
-    <ClCompile Include="Modulo1_UFCD_0804\Algoritmos\Pseudocodigos\test.cpp" />
+    <ClCompile Include="Modulo1_UFCD_0804\Algoritmos\Fluxogramas\a.cpp" />
+    <ClCompile Include="Modulo1_UFCD_0804\Algoritmos\Pseudocodigos\b.cpp" />
     <ClCompile Include="Modulo2_UFCD_0809\Fundamentos\test.cpp" />
   </ItemGroup>
   <ItemGroup>
