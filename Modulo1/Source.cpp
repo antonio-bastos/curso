@@ -5,7 +5,7 @@
 
 int test()
 {
-    std::cout << "aaaa World!\n";
+    std::cout << "rara World!\n";
     return 0;
 }
 
