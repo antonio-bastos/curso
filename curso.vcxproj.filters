@@ -30,6 +30,9 @@
     <ClCompile Include="curso.cpp">
       <Filter>Source Files\Modulo2_UFCD0809</Filter>
     </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\Modulo2_UFCD0809</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\Documents\Class\Algorithms\TT_AREATRIANGULO.ALG">

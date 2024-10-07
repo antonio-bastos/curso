@@ -3,9 +3,9 @@
 
 #include <iostream>
 
-int main()
+int test()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "aaaa World!\n";
     return 0;
 }
 

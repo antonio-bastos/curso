@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="curso.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\Documents\Class\Algorithms\CALCULADORABASICA.ALG" />
