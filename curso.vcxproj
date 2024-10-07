@@ -129,8 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Modulo1_UFCD_0804\Algoritmos\Fluxogramas\test.cpp" />
     <ClCompile Include="Modulo1_UFCD_0804\Algoritmos\Pseudocodigos\test.cpp" />
-    <ClCompile Include="Modulo2_UFCD_0809\test.cpp" />
-    <ClCompile Include="Modulo2_UFCD_0809\Source.cpp" />
+    <ClCompile Include="Modulo2_UFCD_0809\Fundamentos\test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.md" />
