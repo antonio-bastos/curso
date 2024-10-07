@@ -127,65 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="curso.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Modulo1\test.cpp" />
+    <ClCompile Include="Modulo1\Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\Documents\Class\Algorithms\CALCULADORABASICA.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\CALCULADORABASICA_2.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\DESIGNA_DIAS.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\ENQUANTO.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\EQUILATERO.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\EX10.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\EX1_FICHA5.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\EX4.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\ex4.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX1.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX1.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX2.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX2.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX3.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX3.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX4.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX4.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX5.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX5.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX6.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX6.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX7.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX7.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX8.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\FICHA5_EX8.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\LOOP.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\LOOP_2.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\MAIOR_2_NUMEROS.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\MAIOR_2_NUMEROS.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\MAIOR_DE_IDADE.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\MAIOR_IGUAL_2_NUMEROS.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\MAIOR_IGUAL_DOIS_NUMEROS.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\MEDIA2NUM.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\media2num.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\nome_idade.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\nome_idade.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\num_seguinte.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\NUM_SEGUINTES.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\POSITIVO_NEGATIVO.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\POSITIVO_NEGATIVO.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\qlkehfwek.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\QUADRADO.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\quadrado.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\SEMNOME.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\soma2num.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\soma2numeros.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\soma2numpedidos.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\soma2numpedidos.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\tabuada.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\TESTE_AREARETANGULO.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\Teste_AreaRetangulo.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\TROCA_VALORES.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\troca_valores.fprg" />
-    <None Include="..\..\..\Documents\Class\Algorithms\TT_AREATRIANGULO.ALG" />
-    <None Include="..\..\..\Documents\Class\Algorithms\TT_AREATRIANGULO.fprg" />
     <None Include="readme.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
