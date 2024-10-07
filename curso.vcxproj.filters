@@ -33,6 +33,12 @@
     <ClCompile Include="Modulo2_UFCD_0809\Source.cpp">
       <Filter>Source Files\Modulo2_UFCD0809</Filter>
     </ClCompile>
+    <ClCompile Include="Modulo1_UFCD_0804\Algoritmos\Fluxogramas\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Modulo1_UFCD_0804\Algoritmos\Pseudocodigos\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.md" />
