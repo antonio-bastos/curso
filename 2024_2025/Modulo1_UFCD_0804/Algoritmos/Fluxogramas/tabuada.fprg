@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tabuada"/>
+        <attribute name="authors" value="scxip"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-27 11:56:14 am"/>
+        <attribute name="created" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMjc7MTE6NDg6MzUgYW07Mjg5MQ=="/>
+        <attribute name="edited" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMjc7MTE6NTY6MTQgYW07MTsyOTk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num, i, multip" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="True"/>
+            <input variable="num"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <assign variable="multip" expression="num * i"/>
+                <output expression="num &amp; &quot;x&quot; &amp; i &amp; multip" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="POSITIVO_NEGATIVO"/>
+        <attribute name="authors" value="scxip"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-25 03:48:59 pm"/>
+        <attribute name="created" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMjU7MDM6NDU6MTcgcG07MjkwMg=="/>
+        <attribute name="edited" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMjU7MDM6NDg6NTkgcG07MjszMDIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="True"/>
+            <input variable="num"/>
+            <if expression="num = 0">
+                <then>
+                    <output expression="&quot;O n&#250;mero introduzido &#233; nulo!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num &gt; 0">
+                        <then>
+                            <output expression="&quot;O n&#250;mero introduzido &#233; positivo!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;O n&#250;mero introduzido &#233; negativo!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

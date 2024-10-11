@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex4"/>
+        <attribute name="authors" value="scxip"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-23 04:55:12 pm"/>
+        <attribute name="created" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMjM7MDQ6MzY6NDggcG07MjkwNQ=="/>
+        <attribute name="edited" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMjM7MDQ6NTU6MTIgcG07MjszMDA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="produto" type="String" array="False" size=""/>
+            <declare name="quantidade, preco, total" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual &#233; o produto?&quot;" newline="True"/>
+            <input variable="produto"/>
+            <output expression="&quot;Qual &#233; a quantidade de &quot; &amp; produto &amp; &quot; que pretende comprar?&quot;" newline="True"/>
+            <input variable="quantidade"/>
+            <output expression="&quot;Qual &#233; o pre&#231;o de um &quot; &amp; produto" newline="True"/>
+            <input variable="pre&#231;o"/>
+            <assign variable="total" expression="quantidade * preco"/>
+            <output expression="&quot;O valor total do &quot; &amp; produto &amp; &quot; &#233; &quot; &amp; total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

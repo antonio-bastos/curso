@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="quadrado"/>
+        <attribute name="authors" value="scxip"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-23 04:10:02 pm"/>
+        <attribute name="created" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMjM7MDQ6MDM6MDYgcG07Mjg5Mw=="/>
+        <attribute name="edited" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMjM7MDQ6MTA6MDIgcG07MjsyOTk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, quadrado" type="Integer" array="False" size=""/>
+            <declare name="" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o n&#250;mero: &quot;" newline="True"/>
+            <input variable="numero"/>
+            <assign variable="quadrado" expression="numero * numero"/>
+            <output expression="&quot;O quadrado de &quot; &amp; numero &amp; &quot; &#233; &quot; &amp; quadrado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

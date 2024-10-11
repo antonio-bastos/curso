@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="FICHA5_EX5"/>
+        <attribute name="authors" value="scxip"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-30 02:45:04 pm"/>
+        <attribute name="created" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMzA7MDI6NDI6NTggcG07Mjg5OQ=="/>
+        <attribute name="edited" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMzA7MDI6NDU6MDQgcG07MTszMDAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="temp" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a temperatura em fahrenheit: &quot;" newline="True"/>
+            <input variable="temp"/>
+            <output expression="&quot;A temperatura em celsius &#233; &quot; &amp; ((temp-32)*5)/9" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

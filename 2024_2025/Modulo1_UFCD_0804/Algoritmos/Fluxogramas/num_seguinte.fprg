@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="num_seguinte"/>
+        <attribute name="authors" value="scxip"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-23 02:51:46 pm"/>
+        <attribute name="created" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMjM7MDE6MjY6MDIgcG07Mjg5MQ=="/>
+        <attribute name="edited" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMjM7MDI6NTE6NDYgcG07MTszMDA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num1seg, num2seg" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero:&quot;" newline="True"/>
+            <input variable="num1"/>
+            <assign variable="num1seg" expression="num1 + 1"/>
+            <assign variable="num2seg" expression="num1seg + 1"/>
+            <output expression="&quot;Os dois n&#250;meros seguintes s&#227;o: &quot; &amp; num1seg &amp; &quot; e &quot; &amp; num2seg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

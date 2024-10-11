@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="troca_valores"/>
+        <attribute name="authors" value="proft"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-18 11:08:15 "/>
+        <attribute name="created" value="cHJvZnQ7QUxFWEE7MjAyNC0wOS0xODsiMTA6NTg6NTcgIjsyMTI1"/>
+        <attribute name="edited" value="cHJvZnQ7QUxFWEE7MjAyNC0wOS0xODsiMTE6MDg6MTUgIjsxOzIyMjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Boolean" array="False" size=""/>
+            <assign variable="a" expression="true"/>
+            <assign variable="b" expression="false"/>
+            <assign variable="c" expression="a"/>
+            <assign variable="b" expression="c"/>
+            <output expression="&quot;O valor de a &#233;: &quot; &amp;a &amp;&quot; e o valor de b &#233;: &quot; &amp;b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="MAIOR_2_NUMEROS"/>
+        <attribute name="authors" value="scxip"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-25 03:31:46 pm"/>
+        <attribute name="created" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMjU7MDI6NDM6MjUgcG07Mjg5OA=="/>
+        <attribute name="edited" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMjU7MDM6MzE6NDYgcG07NTszMDEx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Este algoritmo vai determinar o maior de dois n&#250;meros inteiros&quot;" newline="True"/>
+            <output expression="&quot;Digite um n&#250;mero inteiro: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Digite um n&#250;mero inteiro diferente do n&#250;mero anterior: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <if expression="num1 = num2">
+                <then>
+                    <output expression="&quot;Os n&#250;meros s&#227;o iguais!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num1 &gt; num2">
+                        <then>
+                            <output expression="&quot;O maior dos dois n&#250;meros &#233; &quot; &amp; num1" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;O maior dos dois n&#250;meros &#233; &quot; &amp; num2" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

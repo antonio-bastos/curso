@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="soma2num"/>
+        <attribute name="authors" value="proft"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-19 03:57:19 "/>
+        <attribute name="created" value="cHJvZnQ7QUxFWEE7MjAyNC0wOS0xOTsiMDM6NDY6MDIgIjsyMTE1"/>
+        <attribute name="edited" value="cHJvZnQ7QUxFWEE7MjAyNC0wOS0xOTsiMDM6NTc6MTkgIjsxOzIyMzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <declare name="soma" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="5"/>
+            <assign variable="num2" expression="2"/>
+            <assign variable="soma" expression="num1 + num2"/>
+            <output expression="soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

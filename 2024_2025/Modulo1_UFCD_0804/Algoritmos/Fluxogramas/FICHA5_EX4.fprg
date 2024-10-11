@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="FICHA_EX4"/>
+        <attribute name="authors" value="scxip"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-30 02:42:38 pm"/>
+        <attribute name="created" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMzA7MDI6MzI6MjcgcG07Mjg5NA=="/>
+        <attribute name="edited" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMDktMzA7MDI6NDI6MzggcG07MTszMDA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, soma" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro n&#250;mero (1-100): &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Digite o segundo n&#250;mero (1-100):&quot;" newline="True"/>
+            <input variable="num2"/>
+            <if expression="num1 &gt;= 1 &amp;&amp; num1 &lt;= 100 &amp;&amp; num2 &gt;= 1 &amp;&amp; num2 &lt;= 100">
+                <then>
+                    <assign variable="soma" expression="num1 + num2"/>
+                    <output expression="soma" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Os n&#250;meros n&#227;o est&#227;o dentro do crit&#233;rio!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

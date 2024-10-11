@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="TT_AREATRIANGULO"/>
+        <attribute name="authors" value="scxip"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 01:52:40 PM"/>
+        <attribute name="created" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMTAtMDc7MDE6MzM6NTUgUE07MjgyNw=="/>
+        <attribute name="edited" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMTAtMDc7MDE6NTI6NDAgUE07NDsyOTMz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, altura, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a altura do triangulo (em cm): &quot;" newline="True"/>
+            <input variable="altura"/>
+            <output expression="&quot;Digite a base do triangulo (em cm): &quot;" newline="True"/>
+            <input variable="base"/>
+            <assign variable="area" expression="(base*altura)/2"/>
+            <output expression="&quot;A &#225;rea do triangulo &#233; &quot; &amp; area &amp; &quot; cm&#178;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

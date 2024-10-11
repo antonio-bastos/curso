@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Teste_AreaRetangulo"/>
+        <attribute name="authors" value="scxip"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 03:43:24 PM"/>
+        <attribute name="created" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMTAtMDc7MDM6NDE6MjggUE07MjgyOA=="/>
+        <attribute name="edited" value="c2N4aXA7REVTS1RPUC1MNzcyMDFTOzIwMjQtMTAtMDc7MDM6NDM6MjQgUE07MTsyOTM0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="altura, base, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a base do retangulo (em cm): &quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;Digite a altura do retangulo (em cm): &quot;" newline="True"/>
+            <input variable="altura"/>
+            <assign variable="area" expression="base * altura"/>
+            <output expression="&quot;A &#225;rea do quadrado &#233; &quot; &amp; area &amp; &quot; cm^2.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
