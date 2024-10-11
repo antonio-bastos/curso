@@ -33,6 +33,12 @@
     <ClCompile Include="2024_2025\Modulo2_UFCD_0809\Fundamentos\dados.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2024_2025\Modulo1_UFCD_0804\Algoritmos\Fluxogramas\fluxogramas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2024_2025\Modulo1_UFCD_0804\Algoritmos\Pseudocodigos\pseudocodigos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.md" />
