@@ -27,10 +27,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Modulo2_UFCD_0809\Fundamentos\conversao_explicita.cpp">
+    <ClCompile Include="2024_2025\Modulo2_UFCD_0809\Fundamentos\conversao_explicita.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Modulo2_UFCD_0809\Fundamentos\dados.cpp">
+    <ClCompile Include="2024_2025\Modulo2_UFCD_0809\Fundamentos\dados.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

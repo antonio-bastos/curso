@@ -127,8 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Modulo2_UFCD_0809\Fundamentos\conversao_explicita.cpp" />
-    <ClCompile Include="Modulo2_UFCD_0809\Fundamentos\dados.cpp" />
+    <ClCompile Include="2024_2025\Modulo2_UFCD_0809\Fundamentos\conversao_explicita.cpp" />
+    <ClCompile Include="2024_2025\Modulo2_UFCD_0809\Fundamentos\dados.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.md" />
