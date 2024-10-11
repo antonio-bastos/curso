@@ -27,8 +27,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Modulo2_UFCD_0809\Fundamentos\conversao_explicita.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Modulo2_UFCD_0809\Fundamentos\dados.cpp">
-      <Filter>Source Files\Modulo2_UFCD0809</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
