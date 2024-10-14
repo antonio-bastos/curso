@@ -133,6 +133,8 @@
     <ClCompile Include="2024_2025\Modulo2_UFCD_0809\Fundamentos\dados.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
     <None Include="readme.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
