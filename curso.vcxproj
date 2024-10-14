@@ -127,10 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="2024_2025\Modulo1_UFCD_0804\Algoritmos\Fluxogramas\fluxogramas.cpp" />
-    <ClCompile Include="2024_2025\Modulo1_UFCD_0804\Algoritmos\Pseudocodigos\pseudocodigos.cpp" />
-    <ClCompile Include="2024_2025\Modulo2_UFCD_0809\Fundamentos\conversao_explicita.cpp" />
-    <ClCompile Include="2024_2025\Modulo2_UFCD_0809\Fundamentos\dados.cpp" />
+    <ClCompile Include="2024_2025\Modulo2_UFCD_0809\Fundamentos\FichaTrabalho1\ficha1_ex16.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitattributes" />

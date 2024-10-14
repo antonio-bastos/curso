@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<cstdio>
 #include<locale.h>
 
 int main()
@@ -6,7 +6,7 @@ int main()
     int num_portateis = 20;
     float custo_portateis = 502.10;
     float custo_total = num_portateis * custo_portateis;
-    char moeda[] = "euros";
+    char moeda[] = "Euros";
 
     printf("Este programa calcula o valor total de portáteis vendidos\n");
 
