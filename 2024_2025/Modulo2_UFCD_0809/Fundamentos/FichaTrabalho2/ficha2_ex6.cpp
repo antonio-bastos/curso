@@ -2,9 +2,9 @@
 int main(void){
     int c1,c2,c3,c4,c5,c6;
     int a1;
-    printf("Linguagem C - exemplificaçã da aplicação das regras de prioridade dos operadores\n: \n");
+    printf("Linguagem C - exemplificaçã da aplicação das regras de prioridade dos operadores\n");
     printf("Determinar o resultado da expressão seguinte: \n");
-    printf("!((6>=3)&&(5!=6))||10*2>22");
+    printf("!((6>=3)&&(5!=6))||10*2>22\n");
     c1 = 6>=3;
     c2 = 5!=6;
     printf("= !(%d && %d)||10*2>22\n",c1,c2);
