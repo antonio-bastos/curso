@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/scxip/source/repos/curso/2024_2025/Modulo2_UFCD_0809/Fundamentos/FichaTrabalho2",
-      "program": "c:/Users/scxip/source/repos/curso/2024_2025/Modulo2_UFCD_0809/Fundamentos/FichaTrabalho2/build/Debug/outDebug",
+      "cwd": "c:/Users/scxip/source/repos/curso/2024_2025/Modulo2_UFCD_0809/Fundamentos/FichaTrabalho3",
+      "program": "c:/Users/scxip/source/repos/curso/2024_2025/Modulo2_UFCD_0809/Fundamentos/FichaTrabalho3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
